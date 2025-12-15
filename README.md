@@ -1,10 +1,10 @@
 # Wordpress SMTP and Microsoft 365 plugin
-Use the customer's SMTP server or Microsoft 365 server for sending mail securely.
+ 
 
 # What does this plugin do?
 
-It allow to stop using PHPMail(), which is the WordPress default, and to use instead a more reliable SMTP server or Microsoft 365 server to send all your email from your WordPress website.
-These plugin affect your website globally ; it affect all e-mails sent by your website such as e-mails sent by your form plugin, e-mails sent by WooCommerce, e-mails sent by any other plugin.
+It allow to stop using PHPMail(), which is the WordPress default, and to use instead a more reliable and secure SMTP server or Microsoft 365 server to send ALL e-mails from your WordPress website.
+These plugin affect your website globaly ; it affect all e-mails sent by your website such as e-mails sent by your form plugin, e-mails sent by WooCommerce, e-mails sent by any other plugin.
 
 # How to use?
 
@@ -37,7 +37,7 @@ Add these constant at the beginning of your wp-config.php:
   
 ## Upload the plugin, activate it
 - WordPress Admin > Plugins > Add Plugin > Upload Plugin
-- Upload the .zip file that you can download from the Release page
+- Upload the .zip file that you can download from the <a href="https://github.com/Vanois-be/wordpress-smtp/releases">Release page</a>
 - Activate the plugin.
 
 ## Go to Settings > Vanois SMTP. 
