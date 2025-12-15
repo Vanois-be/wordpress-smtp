@@ -19,7 +19,7 @@ Constants are defined in wp-config.php
 	define( 'SMTP_FROM',     	'noreply@website.be' );
 	define( 'SMTP_FROMNAME', 	'From name' );
 
-  // Optionnal
+	// Optionnal
 	define( 'SMTP_REPLYTO',  	'reply@website.be' );
 	define( 'SMTP_REPLYTONAME', 'ReplyTo name' );
 
