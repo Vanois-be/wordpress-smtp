@@ -36,9 +36,9 @@ Add these constant at the beginning of your wp-config.php:
 
   
 ## Upload the plugin, activate it
-WordPress Admin > Plugins > Add Plugin > Upload Plugin 
-Upload the .zip file that you can download from the Release page
-Activate the plugin.
+- WordPress Admin > Plugins > Add Plugin > Upload Plugin
+- Upload the .zip file that you can download from the Release page
+- Activate the plugin.
 
 ## Go to Settings > Vanois SMTP. 
   There you can :
