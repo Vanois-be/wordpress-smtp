@@ -13,8 +13,8 @@ These plugin affect your website globally ; it affect all e-mails sent by your w
 3) In your WordPress admin page go to Settings > Vanois SMTP to configure and test your configuration.
 
 
-1) Define constants in wp-config.php
-   Add these constant at the beginning of your wp-config.php:
+## Define constants in wp-config.php
+Add these constant at the beginning of your wp-config.php:
 
 	// Server
 	define( 'SMTP_HOST',     	'mail.infomaniak.com' );
@@ -35,9 +35,9 @@ These plugin affect your website globally ; it affect all e-mails sent by your w
 	define( 'SMTP_REPLYTONAME', 'ReplyTo name' );
 
   
-2) Upload the plugin, activate it
-   
-3) Go to Settings > Vanois SMTP. 
+## Upload the plugin, activate it
+
+## Go to Settings > Vanois SMTP. 
   There you can :
   - test your configuration by sending a test email
   - configure Microsoft 365 : via Microsoft 365 OAuth 2.0 authentication functionality. Follow the guided setup wizard.
