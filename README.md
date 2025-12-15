@@ -1,9 +1,20 @@
-# Wordpress smtp and Microsoft 365 plugin
+# Wordpress SMTP and Microsoft 365 plugin
 Use the customer's SMTP server or Microsoft 365 server for sending mail securely.
+
+# What does this plugin do?
+
+It allow to stop using PHPMail(), which is the WordPress default, and to use instead a more reliable SMTP server or Microsoft 365 server to send all your email from your WordPress website.
+These plugin affect your website globally ; it affect all e-mails sent by your website such as e-mails sent by your form plugin, e-mails sent by WooCommerce, e-mails sent by any other plugin.
 
 # How to use?
 
-Constants are defined in wp-config.php
+1) First define your contants in wp-config.php
+2) Install and activate the plugin
+3) In your WordPress admin page go to Settings > Vanois SMTP to configure and test your configuration.
+
+
+1) Define constants in wp-config.php
+   Add these constant at the beginning of your wp-config.php:
 
 	// Server
 	define( 'SMTP_HOST',     	'mail.infomaniak.com' );
@@ -23,9 +34,10 @@ Constants are defined in wp-config.php
 	define( 'SMTP_REPLYTO',  	'reply@website.be' );
 	define( 'SMTP_REPLYTONAME', 'ReplyTo name' );
 
-  If you use Contact Form 7, you can skip these two constant SMTP_REPLYTO, SMTP_REPLYTONAME as you can define the paramter "Reply-To: my@email.com" in the "Header" field of the email template.
-
-  Once constants are defined in you wp-config.php file, upload the plugin, activate it, go to Settings > Vanois SMTP. 
+  
+2) Upload the plugin, activate it
+   
+3) Go to Settings > Vanois SMTP. 
   There you can :
   - test your configuration by sending a test email
   - configure Microsoft 365 : via Microsoft 365 OAuth 2.0 authentication functionality. Follow the guided setup wizard.
